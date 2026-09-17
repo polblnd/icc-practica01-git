@@ -1,6 +1,6 @@
 # icc-practica01-git
 
-### RETO 2
+## RETO 2
 ##### Preguntas 
 
 1 ¿Qué información almacena un commit?
@@ -17,3 +17,11 @@ Que puedan guardarse en el local y subirse a la rama principal desde git
 
 4 ¿Qué esperan que ocurra cuando ambos modifican exactamente la misma linea?
 Dependiendo de la rama, si trabajan en diferente se guarda de forma local, si es la main la ultima actualización es la que se guarda
+
+## Comandos observados
+Touch.(Formato) Crear un archivo
+Git clone Clonar una copia del repositorio remoto
+Git commit -m "Etiqueta" 
+Git pull "Jalar los cambios de repositorio main"
+Git push "Subir los cambios a el repositorio de github"
+git add "Archivo" para subir un archivo al staging area
