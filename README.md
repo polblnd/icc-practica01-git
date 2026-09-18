@@ -20,8 +20,13 @@ Dependiendo de la rama, si trabajan en diferente se guarda de forma local, si es
 
 ## Comandos observados
 Touch.(Formato) Crear un archivo
+
 Git clone Clonar una copia del repositorio remoto
+
 Git commit -m "Etiqueta" 
+
 Git pull "Jalar los cambios de repositorio main"
+
 Git push "Subir los cambios a el repositorio de github"
-git add "Archivo" para subir un archivo al staging area
+
+Git add "Archivo" para subir un archivo al staging area
