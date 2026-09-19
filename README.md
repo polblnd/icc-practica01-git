@@ -38,6 +38,7 @@ Git add "Archivo" para subir un archivo al staging area
 ## Planificación
 
 #Reto 7
+
 Ambos Developers ejecutaremos git status para verififcar que ambos repositorios estan sincronizados.
 
 Developer A va a modificar decimal.md.
@@ -53,6 +54,7 @@ Developer B va a ejecutar git push después.
 Developer B va a leer el mensaje obtenido.
 
 #Reto 8
+
 Developer B ejecutará git pull --no-rebase para integrar los cambios y luego git push. 
 
 Developer A ejecutará git pull para quedar ambos sincronizados.
