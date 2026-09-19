@@ -34,3 +34,29 @@ Git pull "Jalar los cambios de repositorio main"
 Git push "Subir los cambios a el repositorio de github"
 
 Git add "Archivo" para subir un archivo al staging area
+
+## Planificación
+
+#Reto 7
+Ambos Developers ejecutaremos git status para verififcar que ambos repositorios estan sincronizados.
+
+Developer A va a modificar decimal.md.
+
+Developer B modificará binario.md.
+
+Ambos Developers ejecutaremos: git status, git diff, git add, git commit.
+
+Developer A va a ejecutar primero git push.
+
+Developer B va a ejecutar git push después.
+
+Developer B va a leer el mensaje obtenido.
+
+#Reto 8
+Developer B ejecutará git pull --no-rebase para integrar los cambios y luego git push. 
+
+Developer A ejecutará git pull para quedar ambos sincronizados.
+
+Ambos Developers deberemos discutir y responder 4 preguntas, Developer B deberá registrar respuestas en README.md y hacer el push
+
+Developer A deberá hacer un git pull para quedar sincronizados.
