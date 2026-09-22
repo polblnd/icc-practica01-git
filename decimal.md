@@ -1,4 +1,4 @@
-# Sistema decimal
+# Sistema Binario
 El sistema decimal utiliza base 10.
 
 ## Ejemplo
