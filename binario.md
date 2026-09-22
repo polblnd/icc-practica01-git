@@ -1,4 +1,4 @@
-# Sistema binario
+# Sistema hexadecimal
 El sistema binario utiliza base 2.
 
 # Ejemplo
