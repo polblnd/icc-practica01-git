@@ -1,4 +1,4 @@
-# Sistema decimal
+# Sistema hexadecimal 2.0
 El sistema decimal utiliza base 10.
 
 ## Ejemplo
