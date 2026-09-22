@@ -37,6 +37,13 @@ Git add "Archivo" para subir un archivo al staging area
 
 ## Planificación
 
+# Reto 6
+        G   E   C    
+        |   |   |
+main <---------------A 
+        |   |   |
+        F   D   B
+
 # Reto 7
 
 Ambos Developers ejecutaremos git status para verififcar que ambos repositorios estan sincronizados.
