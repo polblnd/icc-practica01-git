@@ -60,12 +60,14 @@ Developer B va a ejecutar git push después.
 
 Developer B va a leer el mensaje obtenido.
 
-# Reto 8
+# Reto 8 Preguntas
 
-Developer B ejecutará git pull --no-rebase para integrar los cambios y luego git push. 
+1. ¿Por qué Git rechazo el primer push de Developer B?
+Ya que cuando A hizo el push el repositorio contenia un commit que no tenía B en su repositorio local
+2. ¿Existía un conflicto de contenido?
+Si, ya que lo que modifico A, no existia en el repositorio de B
+3. ¿Qué ocurrió cuando ejecutaron pull?
+Permitio que ambos tubieran el contenido de la fusíon
+4. ¿Qué diferencia observan entre un push rechazado y un conflicto?
+Que ambos ocurren en diferentes etapas.
 
-Developer A ejecutará git pull para quedar ambos sincronizados.
-
-Ambos Developers deberemos discutir y responder 4 preguntas, Developer B deberá registrar respuestas en README.md y hacer el push
-
-Developer A deberá hacer un git pull para quedar sincronizados.
