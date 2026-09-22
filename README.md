@@ -71,3 +71,8 @@ Permitio que ambos tubieran el contenido de la fusíon
 4. ¿Qué diferencia observan entre un push rechazado y un conflicto?
 Que ambos ocurren en diferentes etapas.
 
+# Reto 12 Preguntas
+
+¿Realizar un merge implica necesariamente que exista un conflicto?
+
+No, tambien puede servir para trabajar en dos versiones diferentes y poder subir los cambios de forma mas ágil sin tener que esperar a que el otro acabe su versión para empezar a modificarlo. 
