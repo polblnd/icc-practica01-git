@@ -1,4 +1,4 @@
-# Sistema decimal
+# Sistema Binario
 El sistema binario utiliza base 2.
 
 # Ejemplo
