@@ -76,3 +76,15 @@ Que ambos ocurren en diferentes etapas.
 ¿Realizar un merge implica necesariamente que exista un conflicto?
 
 No, tambien puede servir para trabajar en dos versiones diferentes y poder subir los cambios de forma mas ágil sin tener que esperar a que el otro acabe su versión para empezar a modificarlo. 
+
+
+# Reto 15 Preguntas 
+
+1. ¿Que representa HEAD en este momento?
+El lugar donde comienza el conflicto
+2. ¿Que representa el contenido entre «««< y =======?
+Las primeras significan el inicio del problema. las otras nos muestran la diferencia entre las versiones que causan conflicto
+3. ¿Que representa el contenido entre ======= y »»»>?
+El final del conflicto
+4. ¿Por que Git no pudo decidir automáticamente que contenido conservar?
+Ya que merge intento integrar ambas ramas
