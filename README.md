@@ -1,5 +1,9 @@
 # icc-practica01-git
 
+Integrantes:
+Leonardo Paolo Blanco Medina --- Aka Pol
+Josué Yahel García Rodríguez -- Aka Josu
+
 ## RETO 2
 ##### Preguntas 
 
@@ -156,4 +160,66 @@ Ya que merge intento integrar ambas ramas
 ¿Que ventaja tiene utilizar el nombre v1.0 para identificar este punto del historial en lugar de utilizar solamente el hash del commit? 
 En que al ponerle una etiqueta a la versión lo hace más identificable y fácil de nombre, mientras que los commits funcionan mas como las notas de parche
 
+## Reflexión final
 
+Respondan brevemente:
+1. ¿Que información almacena un commit?
+
+Los cambios que realizaste y la autoría.
+
+2. ¿Que diferencia existe entre un repositorio local y un repositorio remoto?
+
+Que el local esta en tu computadora y el remoto es una versión de tu repositorio subida en el internet, en este caso GitHub.
+
+3. ¿Que ocurrió cuando modificaron archivos diferentes?
+
+Solo cambiaban localmente en la computadora de cada uno.
+
+4. ¿Que ocurrió cuando modificaron la misma región de un archivo?
+
+Empezo a presentar conflictos, ya que al subirla con push lo que hacía Git era unir los cambios.
+
+5. ¿Que diferencia existe entre commit y push?
+
+Que el push sube los cambios al repositorio remoto, y el commit al historial del repositorio local.
+
+6. ¿Que función tuvo pull durante la practica?
+
+Te permitía actualizar tu repositorio local con lo que se subió al repositorio remoto.
+
+7. ¿Por que un push puede ser rechazado aunque no exista un conflicto de contenido?
+
+Porque el repositorio remoto tiene commits que el repositorio local no tiene
+
+8. ¿Que representa una rama?
+
+Una especie de repositorio local que te permite trabajar sin tener que actualizar a cada rato tu repositorio, ya que cada vez que realizas un commit se actualiza con el repo remoto automaticamente.
+
+9. ¿Que indica HEAD? 
+
+Indica cual es la rama o archivo en la cuál se esta trabajando.
+
+10. ¿Que hace merge?
+
+Fusiona cambios de una rama con otra rama
+
+11. ¿Por que Git pudo integrar algunos cambios automáticamente y otros no?
+
+Porque se modifican archivos diferentes, y en los casos en que se modifican la misma región no lo hace ya que no tiene instrucción para eso.
+
+12. ¿Que representan los marcadores «««<, ======= y »»»>?
+
+Inicio y fin de un conflicto
+
+13. ¿Que ventaja proporciona un tag?
+
+Mas identificable y mas facil de nombrar y recordar.
+
+14. ¿Como cambio su interpretación de los diagramas de historial después de utilizar git log
+–graph –oneline –all?
+
+A pesar de que con nuestro diagrama no se presenta un gran cambio, nos da a entender que con la misma forma de diagramas se pueden elaborar distintas estrategias para hacer un trabajo mas rápido y eficiente con la creación y fusión de distintas ramas, los cuales pueden ayudar cuando hay un equipo de 3 o más personas. 
+
+## Merge y Rebase
+¿Por que ambos historiales pueden representar cambios semejantes y, sin embargo, tener una estructura diferente?
+Merge fusiona dos historiales en un solo commit, mientras que el rebase genera nuevos commits con los cambios de forma secuencial en la otra rama (como si hubieses comenzado a trabajar en esa), por lo cual quedan en la cabeza del nodo (final del historial de la otra rama).
