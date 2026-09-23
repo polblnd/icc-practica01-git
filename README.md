@@ -1,8 +1,8 @@
 # icc-practica01-git
 
 Integrantes:
-Leonardo Paolo Blanco Medina --- Aka Pol
-Josué Yahel García Rodríguez -- Aka Josu
+Leonardo Paolo Blanco Medina ---  Pol
+Josué Yahel García Rodríguez --   Josu
 
 ## RETO 2
 ##### Preguntas 
@@ -139,6 +139,7 @@ El final del conflicto
 4. ¿Por que Git no pudo decidir automáticamente que contenido conservar?
 Ya que merge intento integrar ambas ramas
 
+<<<<<<< HEAD
 # Reto 16
 ## Historia Real
 
@@ -223,3 +224,15 @@ A pesar de que con nuestro diagrama no se presenta un gran cambio, nos da a ente
 ## Merge y Rebase
 ¿Por que ambos historiales pueden representar cambios semejantes y, sin embargo, tener una estructura diferente?
 Merge fusiona dos historiales en un solo commit, mientras que el rebase genera nuevos commits con los cambios de forma secuencial en la otra rama (como si hubieses comenzado a trabajar en esa), por lo cual quedan en la cabeza del nodo (final del historial de la otra rama).
+=======
+
+## Historia Real
+
+A->B->C->D->E->F->G->H->I->J->K->L->M->N->O->P->Q->R->S->T->U->V----W----->X->Y->Z
+                                                                \->V0->V1-/       \->Rama
+
+1. ¿En que se parece al dibujo inicial?
+2. ¿En que es diferente?
+3. ¿Que partes del historial no habían anticipado?
+4. ¿Que entienden ahora que no entendían cuando realizaron el primer dibujo?
+>>>>>>> 2ec254a (Dibujo real)
